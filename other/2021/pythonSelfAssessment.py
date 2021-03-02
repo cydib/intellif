@@ -171,4 +171,4 @@ def q17():
 
 for i in range(1,18):
     r = eval(f'q{i}')
-    print(r())
+    r()
