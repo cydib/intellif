@@ -9,6 +9,7 @@
 import os
 import time
 from kafka import KafkaConsumer
+from gitlab.sz.xxx.com.x.abc.pb import eer_pb2 as pb
 from google.protobuf.json_format import MessageToDict
 topic = 'test_tpoic'
 host = '192.20.26.215:9092'
