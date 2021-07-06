@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # @File    : recurrent_timeout.py
 # @Date    : 2021-03-11 11:25:27
-# @Author  : xukeze
-# @Link    : https://gitlab.sz.sensetime.com/viper/qa-dev/vats
-# @Project : vats
+# @Author  : author
+# @Link    : hello-kafka
+# @Project : kafka
 
 
 import json
