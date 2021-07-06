@@ -42,8 +42,8 @@ async def req(session, host, pic, bs64):
                 }
             }
         ],
-        "detect_mode": "Default",
-        "face_type": "Large"
+        "mode": "Default",
+        "type": "Large"
     }
     no_face = 0
     async with session.post(url, data=json.dumps(body)) as response:
@@ -73,4 +73,4 @@ def main(host, path):
 
 
 if __name__ == '__main__':
-    main('172.20.26.225:30080', '/Users/keze/mount/useful_pic/')
+    main('10.4.6.7:345', '/useful_pic/')
