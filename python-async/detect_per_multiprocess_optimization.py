@@ -33,7 +33,7 @@ async def run(host, img_path):
 
 
 async def req(session, host, pic, bs64):
-    url = f'http://{host}/engine/image-process/face_25000/v1/batch_detect'
+    url = f'http://{host}/engine/detect/ffce/v1/test'
     body = {
         "requests": [
             {
